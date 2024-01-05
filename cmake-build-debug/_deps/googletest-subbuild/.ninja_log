@@ -1,0 +1,21 @@
+# ninja log v5
+0	9	1704494316661927018	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	a3a29852246d9a8d
+0	9	1704494316661927018	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	a3a29852246d9a8d
+9	1856	1704494318509561881	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	df2b8f185682e8fa
+9	1856	1704494318509561881	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	df2b8f185682e8fa
+1856	1878	0	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d947c6747ccaf410
+1856	1878	0	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d947c6747ccaf410
+1878	1887	1704494318540065129	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	77114eb6c4fcff7f
+1878	1887	1704494318540065129	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	77114eb6c4fcff7f
+1887	1895	1704494318548006592	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	b182780f407c84fa
+1887	1895	1704494318548006592	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	b182780f407c84fa
+1895	1903	1704494318556149094	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	7b8516b42b4ceaf9
+1895	1903	1704494318556149094	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	7b8516b42b4ceaf9
+1903	1911	1704494318564606508	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	be363032ecd8b44
+1903	1911	1704494318564606508	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	be363032ecd8b44
+1911	1919	1704494318572579888	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	739fc9a52f384392
+1911	1919	1704494318572579888	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	739fc9a52f384392
+1919	1931	1704494318583807844	CMakeFiles/googletest-populate-complete	2d6cdce39c8b307
+1919	1931	1704494318583807844	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	2d6cdce39c8b307
+1919	1931	1704494318583807844	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	2d6cdce39c8b307
+1919	1931	1704494318583807844	/Users/brianhan/Documents/BugSquashGame/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	2d6cdce39c8b307

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bug-squash level="Your Level">
+  <program name="Fish Tank" x="100" y="100">
+    <bug type="null" x="1350" y="1100" speed="200" start="0"/>
+    <bug type="garbage" x="825" y="1100" speed="120" start="1"/>
+    <bug type="null" x="1350" y="-100" speed="120" start="1"/>
+    <bug type="redundancy" x="1350" y="-100" speed="140" start="4"/>
+    <bug type="redundancy" x="550" y="1100" speed="130" start="5"/>
+    <bug type="garbage" x="1350" y="-100" speed="170" start="8">
+    <code pass="double.*mSpeed.*=.*[0-9]*.*;"><![CDATA[/**
+ * An anglerfish object for the tank
+ */
+class AnglerFish
+{
+private:
+    /// The fish's speed in pixels per second
+    double mSpeed;
+
+public:
+    void Draw(std::shared_ptr<wxGraphicsContext> graphics);
+};
+]]></code>
+    </bug>
+    <bug type="null" x="300" y="1100" speed="150" start="10"/>
+    <bug type="garbage" x="1350" y="100" speed="80" start="12"/>
+    <bug type="null" x="1350" y="800" speed="80" start="12"/>
+    <bug type="redundancy" x="750" y="1100" speed="80" start="12"/>
+  </program>
+
+  <program name="Settlement" x="1150" y="100">
+    <bug type="garbage" x="-100" y="150" speed="210" start="0"/>
+    <bug type="null" x="-100" y="375" speed="190" start="2">
+    <code pass="if.*\(.*starship.*!=.*nullptr.*\).*\n.*{.*\n.*GetTile\(\)->SetStarship\(starship\);.*\n.*"><![CDATA[
+    GetTile()->SetStarship(starship);
+
+    mStarship->SetLandingPad(this);
+
+    return true;
+]]></code>
+    </bug>
+    <bug type="redundancy" x="200" y="1100" speed="180" start="3"/>
+    <bug type="redundancy" x="100" y="1100" speed="170" start="6"/>
+    <bug type="null" x="-100" y="825" speed="180" start="9"/>
+    <bug type="garbage" x="525" y="1100" speed="140" start="10"/>
+    <bug type="null" x="-100" y="950" speed="150" start="11"/>
+    <bug type="null" x="-100" y="200" speed="80" start="12"/>
+    <bug type="redundancy" x="-100" y="675" speed="80" start="12"/>
+    <bug type="garbage" x="750" y="1100" speed="80" start="12"/>
+  </program>
+
+  <program name="Northern Theater" x="625" y="900">
+    <bug type="redundancy" x="625" y="-100" speed="220" start="0"/>
+    <bug type="garbage" x="1350" y="300" speed="120" start="2"/>
+    <bug type="null" x="300" y="-100" speed="160" start="3"/>
+    <bug type="redundancy" x="-100" y="250" speed="130" start="4">
+      <code pass="Character\(double.*rootPos\);"><![CDATA[/**
+ * The class that builds a character
+ */
+class Character
+{
+private:
+    /// The location of the character's root
+    double mRootPos = 0;
+
+public:
+    Character(double rootPos=0);
+    void Draw(std::shared_ptr<wxGraphicsContext> graphics);
+};
+]]></code>
+    </bug>
+    <bug type="null" x="700" y="-100" speed="190" start="7"/>
+    <bug type="garbage" x="-100" y="400" speed="140" start="7"/>
+    <bug type="redundancy" x="1350" y="575" speed="170" start="9"/>
+    <bug type="redundancy" x="-100" y="100" speed="80" start="12"/>
+    <bug type="garbage" x="1350" y="100" speed="80" start="12"/>
+    <bug type="null" x="625" y="-100" speed="80" start="12"/>
+  </program>
+</bug-squash>
